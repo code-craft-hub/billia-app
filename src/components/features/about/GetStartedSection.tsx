@@ -16,14 +16,14 @@ export const WhyWeStartedSection = () => (
           <p className="text-brown-b leading-relaxed">
             So we built one app that brings it all together — electricity,
             internet, school fees, airtime, and even a virtual dollar card. Add
-            Billia AI, and you&aptos;ve got the smartest payment experience available
-            today.
+            Billia AI, and you&rsquo;ve got the smartest payment experience
+            available today.
           </p>
         </div>
         <div className="flex justify-center">
           <Image
-            width={300}
-            height={300}
+            width={400}
+            height={400}
             src="/assets/why-get-started.png"
             alt=""
           />

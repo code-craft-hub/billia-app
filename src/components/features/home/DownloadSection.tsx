@@ -6,7 +6,7 @@ export const DownloadSection = () => {
     <section className="py-24 px-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-hero rounded-3xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 p-8 lg:p-12 lg:my-34">
+          <div className="space-y-6 p-4 pt-8 sm:p-8 lg:p-12 lg:my-34">
             <h2 className="text-3xl sm:text-4xl font-bold text-brown-b">
               Download Billia Today
             </h2>

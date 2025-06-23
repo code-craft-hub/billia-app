@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const FeatureCard = ({ img, title, description, bg }: IFeatures) => (
     <Card
-      className={`p-0 ${bg} border-0 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 justify-between space-y-0 gap-0`}
+      className={`p-0 ${bg} border-0 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 justify-between`}
     >
       <div className="space-y-4 px-4 pt-4 sm:px-8 sm:pt-8">
         <div>

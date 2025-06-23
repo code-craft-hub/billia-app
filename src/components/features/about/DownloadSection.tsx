@@ -9,7 +9,7 @@ export const DownloadSection = () => (
         Download Billia and experience the smarter way to pay.
       </h2>
 
-      <div className="flex flex-col items-center sm:flex-row gap-4">
+      <div className="flex flex-col items-center sm:flex-row gap-4 mx-auto w-fit">
         <AppButton
           title="GET IT ON"
           service="Google Play"

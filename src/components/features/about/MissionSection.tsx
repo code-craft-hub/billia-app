@@ -5,7 +5,7 @@ export const MissionVisionSection = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div className="flex justify-center order-2 lg:order-1">
-          <Image  width={300} height={300} src="/assets/our-mission.png" alt="" />
+          <Image  width={400} height={400} src="/assets/our-mission.png" alt="" />
         </div>
         <div className="order-1 lg:order-2">
           <h2 className="text-3xl md:text-4xl font-bold text-brown-b mb-8 text-start">
