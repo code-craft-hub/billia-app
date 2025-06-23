@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import {Swiper ,SwiperSlide} from "swiper/react";
-import { Autoplay, Mousewheel, Keyboard, Navigation } from "swiper/modules";
+import { Autoplay, Mousewheel, Keyboard } from "swiper/modules";
 import { testimonials } from "@/constants";
 import { TestimonialCard } from "./TestimonialCard";
 

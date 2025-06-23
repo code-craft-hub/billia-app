@@ -1,8 +1,7 @@
 import { footerLinks } from "@/constants";
 import Image from "next/image";
-import { memo } from "react";
 
-export const Footer = memo(() => {
+export const Footer = () => {
   return (
     <footer className="bg-blend-pattern py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,4 +52,4 @@ export const Footer = memo(() => {
       </div>
     </footer>
   );
-});
+}

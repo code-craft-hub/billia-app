@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { billiaFeatures } from "@/constants";
 import Image from "next/image";
-import { memo } from "react";
 
-export const AISection = memo(() => (
+export const AISection = () => (
   <section className="py-24">
     <div className="container mx-auto p-4">
       <div className="grid lg:grid-cols-2 gap-12 items-center rounded-3xl bg-cream-b ">
@@ -40,4 +39,4 @@ export const AISection = memo(() => (
       </div>
     </div>
   </section>
-));
+)

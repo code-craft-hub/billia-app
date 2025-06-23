@@ -1,8 +1,7 @@
 import { AppButton } from "@/components/globals/AppButton";
 import Image from "next/image";
-import { memo } from "react";
 
-export const HeroSection = memo(() => {
+export const HeroSection =() => {
   return (
     <section className="relative overflow-hidden bg-hero pt-24 pb-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,4 +54,4 @@ export const HeroSection = memo(() => {
       </div>
     </section>
   );
-});
+}

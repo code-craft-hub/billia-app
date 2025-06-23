@@ -1,10 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { IFeatures } from "@/types";
 import Image from "next/image";
-import { memo } from "react";
 
-export const FeatureCard = memo(
-  ({ img, title, description, bg }: IFeatures) => (
+export const FeatureCard = ({ img, title, description, bg }: IFeatures) => (
     <Card
       className={`p-0 ${bg} border-0 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 justify-between space-y-0 gap-0`}
     >
@@ -19,4 +17,3 @@ export const FeatureCard = memo(
       </div>
     </Card>
   )
-);

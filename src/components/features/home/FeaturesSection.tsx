@@ -1,10 +1,9 @@
 import { features } from "@/constants";
-import { memo } from "react";
 import { FeatureCard } from "./FeatureCard";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
-export const FeaturesSection = memo(() => {
+export const FeaturesSection = () => {
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -47,4 +46,4 @@ export const FeaturesSection = memo(() => {
       </div>
     </section>
   );
-});
+}

@@ -13,7 +13,7 @@ export const HeroSection = () => (
             Reimagining How Nigerians Pay, One Bill at a Time
           </h1>
           <p className="text-lg text-brown-b mb-8 leading-relaxed">
-            At Billia, we're building more than just a payment app — we're
+            At Billia, we&aptos;re building more than just a payment app — we&aptos;re
             creating a smarter, simpler way for everyday Nigerians to stay
             connected, pay their bills, and take control of their financial
             lives.

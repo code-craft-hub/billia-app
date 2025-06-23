@@ -126,7 +126,7 @@ export function Header() {
             </SheetHeader>
             <div className="">
               <div className="flex flex-col px-4 space-y-4">
-                {navItems.map(({ icon, name, link }: any, index) => (
+                {navItems.map(({ icon, name, link }, index) => (
                   <Link
                     key={index}
                     href={link}
